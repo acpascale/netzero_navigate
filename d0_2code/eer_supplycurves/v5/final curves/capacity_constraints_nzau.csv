@@ -1,0 +1,187 @@
+sensitivity,bin_number,NZAu_maj,incap,name,type
+[d],1,nsw-outback,61695.0,large-scale solar pv|1,solar
+[d],1,nt,123810.1875,large-scale solar pv|1,solar
+[d],1,qld-north,180156.9375,large-scale solar pv|1,solar
+[d],1,qld-outback,706350.9375,large-scale solar pv|1,solar
+[d],1,qld-south,3920.0625,large-scale solar pv|1,solar
+[d],1,wa-central,2571.1875,large-scale solar pv|1,solar
+[d],1,wa-north,261271.6875,large-scale solar pv|1,solar
+[d],1,wa-south,1679.625,large-scale solar pv|1,solar
+[d],2,nsw-central,1027.6875,large-scale solar pv|2,solar
+[d],2,nsw-north,339.1875,large-scale solar pv|2,solar
+[d],2,nsw-outback,367944.75,large-scale solar pv|2,solar
+[d],2,nt,69468.75,large-scale solar pv|2,solar
+[d],2,qld-north,173670.75,large-scale solar pv|2,solar
+[d],2,qld-outback,395115.1875,large-scale solar pv|2,solar
+[d],2,qld-south,27029.25,large-scale solar pv|2,solar
+[d],2,sa,253.125,large-scale solar pv|2,solar
+[d],2,vic-west,333.5625,large-scale solar pv|2,solar
+[d],2,wa-central,60760.125,large-scale solar pv|2,solar
+[d],2,wa-north,222438.9375,large-scale solar pv|2,solar
+[d],2,wa-south,1335.375,large-scale solar pv|2,solar
+[d],3,nsw-central,116451.5625,large-scale solar pv|3,solar
+[d],3,nsw-north,110887.3125,large-scale solar pv|3,solar
+[d],3,nsw-outback,287758.6875,large-scale solar pv|3,solar
+[d],3,nsw-south,21845.8125,large-scale solar pv|3,solar
+[d],3,qld-north,331.875,large-scale solar pv|3,solar
+[d],3,qld-south,114233.625,large-scale solar pv|3,solar
+[d],3,sa,141739.875,large-scale solar pv|3,solar
+[d],3,vic-west,20058.75,large-scale solar pv|3,solar
+[d],3,wa-south,26857.6875,large-scale solar pv|3,solar
+[d],4,nsw-central,63789.1875,large-scale solar pv|4,solar
+[d],4,nsw-north,41269.5,large-scale solar pv|4,solar
+[d],4,nsw-south,157233.9375,large-scale solar pv|4,solar
+[d],4,qld-south,426.375,large-scale solar pv|4,solar
+[d],4,sa,83859.1875,large-scale solar pv|4,solar
+[d],4,tas,5769.0,large-scale solar pv|4,solar
+[d],4,vic-east,5654.25,large-scale solar pv|4,solar
+[d],4,vic-west,87534.0,large-scale solar pv|4,solar
+[d],4,wa-south,7287.75,large-scale solar pv|4,solar
+[d],5,ex-nsw,7368.1875,large-scale solar pv|5,solar
+[d],5,ex-nt,718390.125,large-scale solar pv|5,solar
+[d],5,ex-qld,759462.75,large-scale solar pv|5,solar
+[d],5,ex-sa,87654.375,large-scale solar pv|5,solar
+[d],5,ex-wa,925919.4375,large-scale solar pv|5,solar
+[d],6,ex-nsw,45941.0625,large-scale solar pv|6,solar
+[d],6,ex-nt,957718.6875,large-scale solar pv|6,solar
+[d],6,ex-qld,1070780.0625,large-scale solar pv|6,solar
+[d],6,ex-sa,97138.6875,large-scale solar pv|6,solar
+[d],6,ex-wa,995279.625,large-scale solar pv|6,solar
+[d],7,ex-nsw,262955.25,large-scale solar pv|7,solar
+[d],7,ex-nt,81597.375,large-scale solar pv|7,solar
+[d],7,ex-qld,572367.9375,large-scale solar pv|7,solar
+[d],7,ex-sa,190033.3125,large-scale solar pv|7,solar
+[d],7,ex-wa,317638.125,large-scale solar pv|7,solar
+[d],1,ex-wa,224564.175,offshore wind|1,offshore
+[d],1,nsw-south,8249.45,offshore wind|1,offshore
+[d],1,sa,20183.075,offshore wind|1,offshore
+[d],1,tas,200627.9,offshore wind|1,offshore
+[d],1,vic-east,96353.95,offshore wind|1,offshore
+[d],1,vic-west,41190.325,offshore wind|1,offshore
+[d],1,wa-south,31862.05,offshore wind|1,offshore
+[d],2,ex-wa,607.75,offshore wind|2,offshore
+[d],2,nsw-south,2827.55,offshore wind|2,offshore
+[d],2,qld-north,94512.825,offshore wind|2,offshore
+[d],2,sa,2017.3999999999999,offshore wind|2,offshore
+[d],2,tas,18098.025,offshore wind|2,offshore
+[d],2,vic-east,2137.025,offshore wind|2,offshore
+[d],2,vic-west,4763.275,offshore wind|2,offshore
+[d],2,wa-south,3081.375,offshore wind|2,offshore
+[d],3,ex-sa,50102.25,offshore wind|3,offshore
+[d],3,ex-wa,2157.1,offshore wind|3,offshore
+[d],3,nsw-north,793.375,offshore wind|3,offshore
+[d],3,nsw-south,10264.65,offshore wind|3,offshore
+[d],3,nt,52884.975,offshore wind|3,offshore
+[d],3,qld-south,16434.0,offshore wind|3,offshore
+[d],3,sa,104453.8,offshore wind|3,offshore
+[d],3,tas,14170.475,offshore wind|3,offshore
+[d],3,vic-east,4809.475,offshore wind|3,offshore
+[d],3,vic-west,7530.325,offshore wind|3,offshore
+[d],3,wa-south,82001.15,offshore wind|3,offshore
+[d],4,ex-sa,1080.2,offshore wind|4,offshore
+[d],4,ex-wa,189.2,offshore wind|4,offshore
+[d],4,nsw-south,697.675,offshore wind|4,offshore
+[d],4,nt,305355.6,offshore wind|4,offshore
+[d],4,qld-north,79724.15,offshore wind|4,offshore
+[d],4,qld-south,4515.775,offshore wind|4,offshore
+[d],4,sa,301273.77499999997,offshore wind|4,offshore
+[d],4,tas,986.975,offshore wind|4,offshore
+[d],4,vic-east,221.375,offshore wind|4,offshore
+[d],4,vic-west,1109.625,offshore wind|4,offshore
+[d],4,wa-south,295920.35,offshore wind|4,offshore
+[d],5,nsw-south,3241.425,offshore wind|5,offshore
+[d],5,nt,288561.075,offshore wind|5,offshore
+[d],5,qld-north,24995.85,offshore wind|5,offshore
+[d],5,qld-south,8317.1,offshore wind|5,offshore
+[d],5,sa,43196.725,offshore wind|5,offshore
+[d],5,tas,1256.2,offshore wind|5,offshore
+[d],5,vic-east,4788.025000000001,offshore wind|5,offshore
+[d],5,wa-north,10465.125,offshore wind|5,offshore
+[d],5,wa-south,54466.775,offshore wind|5,offshore
+[d],1,ex-nsw,11702.8125,onshore wind|1,onshore
+[d],1,ex-nt,53966.925,onshore wind|1,onshore
+[d],1,ex-qld,99712.85625,onshore wind|1,onshore
+[d],1,ex-sa,32912.83125,onshore wind|1,onshore
+[d],1,ex-wa,102357.3375,onshore wind|1,onshore
+[d],1,nsw-central,31955.5125,onshore wind|1,onshore
+[d],1,nsw-north,18037.51875,onshore wind|1,onshore
+[d],1,nsw-outback,43907.0625,onshore wind|1,onshore
+[d],1,nsw-south,8867.30625,onshore wind|1,onshore
+[d],1,qld-north,28566.675,onshore wind|1,onshore
+[d],1,qld-outback,102699.05625,onshore wind|1,onshore
+[d],1,qld-south,22603.89375,onshore wind|1,onshore
+[d],1,sa,66460.33125,onshore wind|1,onshore
+[d],1,vic-east,953.26875,onshore wind|1,onshore
+[d],1,vic-west,33542.4375,onshore wind|1,onshore
+[d],1,wa-central,2386.4625,onshore wind|1,onshore
+[d],1,wa-north,1102.10625,onshore wind|1,onshore
+[d],1,wa-south,44056.06875,onshore wind|1,onshore
+[d],2,ex-nt,1724.625,onshore wind|2,onshore
+[d],2,ex-qld,15593.850550000001,onshore wind|2,onshore
+[d],2,ex-sa,11912.90665,onshore wind|2,onshore
+[d],2,ex-wa,4766.5126,onshore wind|2,onshore
+[d],2,nsw-central,13745.02535,onshore wind|2,onshore
+[d],2,nsw-north,1074.0938,onshore wind|2,onshore
+[d],2,nsw-outback,79501.50435,onshore wind|2,onshore
+[d],2,nsw-south,15906.03865,onshore wind|2,onshore
+[d],2,nt,596.7,onshore wind|2,onshore
+[d],2,qld-north,70945.70915,onshore wind|2,onshore
+[d],2,qld-outback,115774.9905,onshore wind|2,onshore
+[d],2,qld-south,31026.5442,onshore wind|2,onshore
+[d],2,sa,109097.0519,onshore wind|2,onshore
+[d],2,vic-west,35910.5074,onshore wind|2,onshore
+[d],2,wa-north,4354.5939,onshore wind|2,onshore
+[d],2,wa-south,243512.34085,onshore wind|2,onshore
+[d],3,ex-nsw,57247.7625,onshore wind|3,onshore
+[d],3,ex-nt,268925.7375,onshore wind|3,onshore
+[d],3,ex-qld,400117.725,onshore wind|3,onshore
+[d],3,ex-sa,64415.925,onshore wind|3,onshore
+[d],3,ex-wa,464539.3875,onshore wind|3,onshore
+[d],3,nsw-central,6561.84375,onshore wind|3,onshore
+[d],3,nsw-north,4403.19375,onshore wind|3,onshore
+[d],3,nsw-outback,137623.21875,onshore wind|3,onshore
+[d],3,nsw-south,19016.4375,onshore wind|3,onshore
+[d],3,nt,778.10625,onshore wind|3,onshore
+[d],3,qld-north,19808.04375,onshore wind|3,onshore
+[d],3,qld-outback,172040.11875,onshore wind|3,onshore
+[d],3,qld-south,2908.40625,onshore wind|3,onshore
+[d],3,sa,34409.30625,onshore wind|3,onshore
+[d],3,vic-west,2526.1875,onshore wind|3,onshore
+[d],3,wa-central,16234.59375,onshore wind|3,onshore
+[d],3,wa-north,63204.975,onshore wind|3,onshore
+[d],3,wa-south,4916.86875,onshore wind|3,onshore
+[d],4,ex-nsw,58166.60625,onshore wind|4,onshore
+[d],4,ex-nt,18896.45625,onshore wind|4,onshore
+[d],4,ex-qld,130673.41875,onshore wind|4,onshore
+[d],4,ex-sa,5713.70625,onshore wind|4,onshore
+[d],4,ex-wa,17135.04375,onshore wind|4,onshore
+[d],4,nsw-central,28210.95,onshore wind|4,onshore
+[d],4,nsw-north,19732.275,onshore wind|4,onshore
+[d],4,nsw-outback,23007.375,onshore wind|4,onshore
+[d],4,nsw-south,79852.8375,onshore wind|4,onshore
+[d],4,nt,67802.0625,onshore wind|4,onshore
+[d],4,qld-north,63789.8625,onshore wind|4,onshore
+[d],4,qld-outback,249743.41875,onshore wind|4,onshore
+[d],4,qld-south,59208.13125,onshore wind|4,onshore
+[d],4,sa,39357.5625,onshore wind|4,onshore
+[d],4,vic-west,13309.81875,onshore wind|4,onshore
+[d],4,wa-central,3720.09375,onshore wind|4,onshore
+[d],4,wa-north,109569.375,onshore wind|4,onshore
+[d],4,wa-south,71.55,onshore wind|4,onshore
+[d],5,ex-nsw,5090.00645,onshore wind|5,onshore
+[d],5,ex-nt,2491.76265,onshore wind|5,onshore
+[d],5,ex-qld,21519.84415,onshore wind|5,onshore
+[d],5,ex-sa,1567.01265,onshore wind|5,onshore
+[d],5,ex-wa,2820.1502,onshore wind|5,onshore
+[d],5,nsw-central,34345.18395,onshore wind|5,onshore
+[d],5,nsw-north,21841.482,onshore wind|5,onshore
+[d],5,nsw-outback,55924.59555,onshore wind|5,onshore
+[d],5,nsw-south,44328.60135,onshore wind|5,onshore
+[d],5,nt,142489.9761,onshore wind|5,onshore
+[d],5,qld-north,99712.5225,onshore wind|5,onshore
+[d],5,qld-outback,99059.1223,onshore wind|5,onshore
+[d],5,qld-south,136786.8955,onshore wind|5,onshore
+[d],5,sa,28918.52175,onshore wind|5,onshore
+[d],5,vic-west,14660.15705,onshore wind|5,onshore
+[d],5,wa-central,3200.68125,onshore wind|5,onshore
+[d],5,wa-north,32296.22035,onshore wind|5,onshore

@@ -1,0 +1,187 @@
+bin_number,NZAu_maj,tx_cost_per_kw,name,type
+1,nsw-outback,323.86437443927133,large-scale solar pv|1,solar
+1,nt,320.6486650230474,large-scale solar pv|1,solar
+1,qld-north,334.01654062687817,large-scale solar pv|1,solar
+1,qld-outback,332.2725717773466,large-scale solar pv|1,solar
+1,qld-south,376.1170263109427,large-scale solar pv|1,solar
+1,wa-central,314.47066126476597,large-scale solar pv|1,solar
+1,wa-north,337.926585705605,large-scale solar pv|1,solar
+1,wa-south,386.13662103261987,large-scale solar pv|1,solar
+2,nsw-central,145.91892119727387,large-scale solar pv|2,solar
+2,nsw-north,158.43607140098848,large-scale solar pv|2,solar
+2,nsw-outback,191.45438895234494,large-scale solar pv|2,solar
+2,nt,210.35572478212404,large-scale solar pv|2,solar
+2,qld-north,210.5478501863138,large-scale solar pv|2,solar
+2,qld-outback,199.25262322851114,large-scale solar pv|2,solar
+2,qld-south,208.38275747063994,large-scale solar pv|2,solar
+2,sa,157.97666827034587,large-scale solar pv|2,solar
+2,vic-west,149.65991484817835,large-scale solar pv|2,solar
+2,wa-central,157.5075284606401,large-scale solar pv|2,solar
+2,wa-north,198.25013565299568,large-scale solar pv|2,solar
+2,wa-south,104.87157534355177,large-scale solar pv|2,solar
+3,nsw-central,321.44479870836955,large-scale solar pv|3,solar
+3,nsw-north,319.2765279178723,large-scale solar pv|3,solar
+3,nsw-outback,312.09333301299415,large-scale solar pv|3,solar
+3,nsw-south,328.2940199367018,large-scale solar pv|3,solar
+3,qld-north,293.8649209825148,large-scale solar pv|3,solar
+3,qld-south,323.7926939024331,large-scale solar pv|3,solar
+3,sa,312.64822656942533,large-scale solar pv|3,solar
+3,vic-west,373.7782599034789,large-scale solar pv|3,solar
+3,wa-south,355.7279261361784,large-scale solar pv|3,solar
+4,nsw-central,239.6698537459065,large-scale solar pv|4,solar
+4,nsw-north,203.8703663806677,large-scale solar pv|4,solar
+4,nsw-south,204.81411902384372,large-scale solar pv|4,solar
+4,qld-south,124.33753707491388,large-scale solar pv|4,solar
+4,sa,281.8301458490679,large-scale solar pv|4,solar
+4,tas,232.83309448185722,large-scale solar pv|4,solar
+4,vic-east,237.44823340678903,large-scale solar pv|4,solar
+4,vic-west,247.36117715121628,large-scale solar pv|4,solar
+4,wa-south,239.2676437283404,large-scale solar pv|4,solar
+5,ex-nsw,94.73352063813172,large-scale solar pv|5,solar
+5,ex-nt,141.63244245022764,large-scale solar pv|5,solar
+5,ex-qld,125.13868807419912,large-scale solar pv|5,solar
+5,ex-sa,93.93444139573799,large-scale solar pv|5,solar
+5,ex-wa,129.04004219988872,large-scale solar pv|5,solar
+6,ex-nsw,138.7263893490349,large-scale solar pv|6,solar
+6,ex-nt,276.4457882827888,large-scale solar pv|6,solar
+6,ex-qld,241.0610536915415,large-scale solar pv|6,solar
+6,ex-sa,167.84777082730608,large-scale solar pv|6,solar
+6,ex-wa,237.14409342148457,large-scale solar pv|6,solar
+7,ex-nsw,311.7822640834659,large-scale solar pv|7,solar
+7,ex-nt,378.0379652154042,large-scale solar pv|7,solar
+7,ex-qld,335.6077538486549,large-scale solar pv|7,solar
+7,ex-sa,302.04470075908876,large-scale solar pv|7,solar
+7,ex-wa,333.06817435650146,large-scale solar pv|7,solar
+1,ex-wa,684.6694243386169,offshore wind|1,offshore
+1,nsw-south,1023.6233374483196,offshore wind|1,offshore
+1,sa,1018.7364474052487,offshore wind|1,offshore
+1,tas,1012.2183957587658,offshore wind|1,offshore
+1,vic-east,1116.0256151159722,offshore wind|1,offshore
+1,vic-west,1003.6518053268937,offshore wind|1,offshore
+1,wa-south,966.2671087240311,offshore wind|1,offshore
+2,ex-wa,1464.701252177308,offshore wind|2,offshore
+2,nsw-south,1537.7443185885584,offshore wind|2,offshore
+2,qld-north,1793.999875120545,offshore wind|2,offshore
+2,sa,1446.6397539186123,offshore wind|2,offshore
+2,tas,1504.9707946526278,offshore wind|2,offshore
+2,vic-east,1432.4876612045043,offshore wind|2,offshore
+2,vic-west,1483.1010684056769,offshore wind|2,offshore
+2,wa-south,1601.8232681882284,offshore wind|2,offshore
+3,ex-sa,804.0777180784761,offshore wind|3,offshore
+3,ex-wa,725.8015779621695,offshore wind|3,offshore
+3,nsw-north,917.33291216045,offshore wind|3,offshore
+3,nsw-south,918.2254754458072,offshore wind|3,offshore
+3,nt,1066.2232066393533,offshore wind|3,offshore
+3,qld-south,986.8475677069437,offshore wind|3,offshore
+3,sa,1057.7095818332255,offshore wind|3,offshore
+3,tas,897.0515633231519,offshore wind|3,offshore
+3,vic-east,901.7197152341552,offshore wind|3,offshore
+3,vic-west,958.0373450484229,offshore wind|3,offshore
+3,wa-south,1001.7599302349773,offshore wind|3,offshore
+4,ex-sa,1603.0253330010128,offshore wind|4,offshore
+4,ex-wa,1388.8563567307826,offshore wind|4,offshore
+4,nsw-south,1616.3375448447373,offshore wind|4,offshore
+4,nt,1624.026242975281,offshore wind|4,offshore
+4,qld-north,1830.4810147584074,offshore wind|4,offshore
+4,qld-south,1541.3456605792717,offshore wind|4,offshore
+4,sa,1587.1449880359976,offshore wind|4,offshore
+4,tas,1440.7619892649386,offshore wind|4,offshore
+4,vic-east,1354.139122279074,offshore wind|4,offshore
+4,vic-west,1529.3317973853111,offshore wind|4,offshore
+4,wa-south,1602.5599725212671,offshore wind|4,offshore
+5,nsw-south,1037.5823738275908,offshore wind|5,offshore
+5,nt,1315.1459505080795,offshore wind|5,offshore
+5,qld-north,1682.4495057739557,offshore wind|5,offshore
+5,qld-south,1096.4602253753767,offshore wind|5,offshore
+5,sa,1211.4441546777666,offshore wind|5,offshore
+5,tas,1260.9707336033714,offshore wind|5,offshore
+5,vic-east,822.2323084070573,offshore wind|5,offshore
+5,wa-north,1024.2914378353928,offshore wind|5,offshore
+5,wa-south,1273.1992938740048,offshore wind|5,offshore
+1,ex-nsw,349.201690198126,onshore wind|1,onshore
+1,ex-nt,276.1373975848081,onshore wind|1,onshore
+1,ex-qld,270.71017350298337,onshore wind|1,onshore
+1,ex-sa,341.88038166990947,onshore wind|1,onshore
+1,ex-wa,309.26039712198445,onshore wind|1,onshore
+1,nsw-central,357.83353288640745,onshore wind|1,onshore
+1,nsw-north,332.15976030400947,onshore wind|1,onshore
+1,nsw-outback,361.4678839252051,onshore wind|1,onshore
+1,nsw-south,266.0130599672876,onshore wind|1,onshore
+1,qld-north,353.2237168658399,onshore wind|1,onshore
+1,qld-outback,356.762923204321,onshore wind|1,onshore
+1,qld-south,348.5762774415349,onshore wind|1,onshore
+1,sa,353.64673118340016,onshore wind|1,onshore
+1,vic-east,303.5626724691894,onshore wind|1,onshore
+1,vic-west,369.9678719016643,onshore wind|1,onshore
+1,wa-central,277.98527415652615,onshore wind|1,onshore
+1,wa-north,364.5666923291688,onshore wind|1,onshore
+1,wa-south,396.62760525552295,onshore wind|1,onshore
+2,ex-nt,518.5881124594046,onshore wind|2,onshore
+2,ex-qld,563.6516323315614,onshore wind|2,onshore
+2,ex-sa,582.576079376818,onshore wind|2,onshore
+2,ex-wa,576.106583753233,onshore wind|2,onshore
+2,nsw-central,585.43793399044,onshore wind|2,onshore
+2,nsw-north,591.8115857680874,onshore wind|2,onshore
+2,nsw-outback,577.1277530838421,onshore wind|2,onshore
+2,nsw-south,673.4728787918965,onshore wind|2,onshore
+2,nt,608.8553712083124,onshore wind|2,onshore
+2,qld-north,635.2510120734498,onshore wind|2,onshore
+2,qld-outback,565.7402895732766,onshore wind|2,onshore
+2,qld-south,668.3383562298643,onshore wind|2,onshore
+2,sa,658.1294820541525,onshore wind|2,onshore
+2,vic-west,597.5857484352912,onshore wind|2,onshore
+2,wa-north,727.0515351615221,onshore wind|2,onshore
+2,wa-south,639.2595002127874,onshore wind|2,onshore
+3,ex-nsw,209.38087723619597,onshore wind|3,onshore
+3,ex-nt,166.45441965646847,onshore wind|3,onshore
+3,ex-qld,175.00340351945474,onshore wind|3,onshore
+3,ex-sa,151.4911995041644,onshore wind|3,onshore
+3,ex-wa,162.15779319127273,onshore wind|3,onshore
+3,nsw-central,257.04859899368876,onshore wind|3,onshore
+3,nsw-north,218.32141540534562,onshore wind|3,onshore
+3,nsw-outback,203.5073763291447,onshore wind|3,onshore
+3,nsw-south,195.10657519747738,onshore wind|3,onshore
+3,nt,94.44019209519072,onshore wind|3,onshore
+3,qld-north,184.29737874583955,onshore wind|3,onshore
+3,qld-outback,204.33531281487706,onshore wind|3,onshore
+3,qld-south,213.5902043117071,onshore wind|3,onshore
+3,sa,212.81025371632427,onshore wind|3,onshore
+3,vic-west,232.84021026678582,onshore wind|3,onshore
+3,wa-central,148.9424188388907,onshore wind|3,onshore
+3,wa-north,184.29597724237965,onshore wind|3,onshore
+3,wa-south,188.4617068688551,onshore wind|3,onshore
+4,ex-nsw,378.85272880977993,onshore wind|4,onshore
+4,ex-nt,332.44649266269226,onshore wind|4,onshore
+4,ex-qld,383.321170191765,onshore wind|4,onshore
+4,ex-sa,382.04070481551656,onshore wind|4,onshore
+4,ex-wa,365.6683707063868,onshore wind|4,onshore
+4,nsw-central,380.57536191059955,onshore wind|4,onshore
+4,nsw-north,419.15479308168295,onshore wind|4,onshore
+4,nsw-outback,358.03769276268366,onshore wind|4,onshore
+4,nsw-south,397.64601765467654,onshore wind|4,onshore
+4,nt,435.0340099134888,onshore wind|4,onshore
+4,qld-north,407.4415425952238,onshore wind|4,onshore
+4,qld-outback,398.78247505654264,onshore wind|4,onshore
+4,qld-south,454.5714288560801,onshore wind|4,onshore
+4,sa,393.70623332310015,onshore wind|4,onshore
+4,vic-west,416.3021863635878,onshore wind|4,onshore
+4,wa-central,489.77534213679223,onshore wind|4,onshore
+4,wa-north,362.9525580892144,onshore wind|4,onshore
+4,wa-south,341.4588300032677,onshore wind|4,onshore
+5,ex-nsw,619.9112829836282,onshore wind|5,onshore
+5,ex-nt,608.064435832201,onshore wind|5,onshore
+5,ex-qld,573.7157214828965,onshore wind|5,onshore
+5,ex-sa,622.0252401919028,onshore wind|5,onshore
+5,ex-wa,628.2852922410752,onshore wind|5,onshore
+5,nsw-central,682.4818076133279,onshore wind|5,onshore
+5,nsw-north,679.2620735992821,onshore wind|5,onshore
+5,nsw-outback,665.3423468359956,onshore wind|5,onshore
+5,nsw-south,610.2582350562873,onshore wind|5,onshore
+5,nt,667.6110788132828,onshore wind|5,onshore
+5,qld-north,660.7757287041287,onshore wind|5,onshore
+5,qld-outback,585.8726104994579,onshore wind|5,onshore
+5,qld-south,662.4599328110555,onshore wind|5,onshore
+5,sa,641.7428758726448,onshore wind|5,onshore
+5,vic-west,650.8790788153871,onshore wind|5,onshore
+5,wa-central,543.3758462985197,onshore wind|5,onshore
+5,wa-north,633.2413747899967,onshore wind|5,onshore
