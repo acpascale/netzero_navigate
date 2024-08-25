@@ -1,0 +1,6 @@
+﻿CATEGORY,Jurisdiction,Jurisdiction,Jurisdiction,Jurisdiction,Jurisdiction,Land Use,Land Use,Land Use,Land Use,Greenfield or brownfield,Greenfield or brownfield,Greenfield or brownfield,Location (regional/distance factors),Location (regional/distance factors),Location (regional/distance factors),Location wind loading zones,Location wind loading zones,Terrain,Terrain,Terrain,Project network element size,Project network element size,Project network element size,Project network element size,Project network element size,Project network element size
+MODIFIER,SA,TAS,VIC,NSW,QLD,Desert,Scrub,Grazing,Developed area,Brownfield ,Partly brownfield,Greenfield,Urban,Regional,Remote,Non-cyclone region,Cyclone region,Flat/Farmland,Hilly/Undulating,Mountainous,Below 1 km,1 to 5 km,5 to 10 km,10 to 100 km,100 to 200km,Above 200 km
+ONSHORE,0.9447,0.9447,0.9605,1,0.9447,0.8886,0.9052,1,1.1185,1.0654,1.0327,1,1,1.0255,1.051,1,1.0618,1,1.0379,1.1011,1.4658,1.2737,1.1132,1.0401,1,0.9642
+OFFSHORE,1,1,1,1,1,1,1,1,1,1.0446,1.0223,1,1,1.0287,1.0574,1,1.1325,1,1.0258,1.0689,1.4948,1.2908,1.1203,1.0426,1,0.9619
+WHERE_LINE,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,MAP,CODE,CODE,CODE,CODE,CODE,CODE
+WHERE_SUB,CODE,CODE,CODE,CODE,CODE,CODE,CODE,CODE,CODE,NONE,NONE,ASSUMED,CODE,CODE,CODE,CODE,CODE,CODE,CODE,CODE,NA,NA,NA,NA,NA,NA
