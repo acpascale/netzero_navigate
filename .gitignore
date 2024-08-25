@@ -1,3 +1,10 @@
+# ArcGIS project files/dirs
+*.aprx
+*.atbx
+
+# ArcGIS files too big
+*netNav_baseAdd.gdb
+
 # Pycharm directories
 *.idea/
 

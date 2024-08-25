@@ -59,3 +59,5 @@ Pascale, A., Watson, J., Davis, D., Smart, S., Braer, M., Jones,R., Greig, C. Ne
 6. Added EER (https://www.evolved.energy/) supply curve code to process and modified to recreate lost code and parameters and use for paper.
 
 7. Code and data will be posted as is for use with a manuscript, but will be cleaned and combined into a single programming language, to aid user accessibility
+
+8. User will need to download a zipped ArcGIS gdb to run stages 1-8, will be posted at (TBA)
