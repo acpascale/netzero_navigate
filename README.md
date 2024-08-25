@@ -4,7 +4,7 @@ This repository contains data, code and outputs for the manuscript on nativagiti
 
 ## Source files
 
-All (non-GIS) source files needed to reproduce analyses here
+All (non-GIS) source files needed to reproduce analyses here. Missing GIS files have not been added at this time due to size limitations. They will be made available for download shortly.
 
 ## Code folder
 
