@@ -1,6 +1,9 @@
 # ArcGIS project files/dirs
 *.aprx
 *.atbx
+ImportLog/
+GpMessages/
+.backups/
 
 # ArcGIS files too big
 *netNav_baseAdd.gdb
