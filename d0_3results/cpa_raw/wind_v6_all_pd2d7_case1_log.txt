@@ -1,0 +1,202 @@
+Column Run for column 6 in masterCSV parameter file.
+MapRE+ Setup done
+Base directory: C:\Users\uqapasca\workdeskUQ\NZAu\
+Run = wind_v6_all_pd2d7_
+08/07/2024 16:03:39
+MapRE+:Start Stage = 1
+MapRE+:End Stage = 8
+Selected RUN STAGES:
+STAGE 1 - COMBINE EXCLUSION LAYERS and REMOVE EXCLUSIONS FROM SOLAR AND WIND RESOURCES [fork of MapRE B1]
+STAGE 2 - SEPARATE RESOURCE LAYER INTO PROJECT SITES OF SPECIFIED SIZE/CAPACITY [fork of MapRE B2]
+STAGE 3 - DETERMINE BASE PROJECT ATTRIBUTES such as PROJECT CAPACITY,ANNUAL LOSSLESS GENERATION, and USER DEFINED ATTRIBUTES [fork of MapRE B3]
+STAGE 4 - SPUR LINE GENERATION FOR ALL CPAs to a) existing TX or b) MSA [NZAu developed from manual processes used for NZA,PoPW, REPEAT]
+STAGE 5 - BULK LINE GENERATION connecting all spur lines (not already connected to a MSA) to nearest MSA [NZAu developed from manual processes used for NZA,PoPW, REPEAT]
+STAGE 6 - SINK LINE GENERATION connecting all spur lines (not already connected to a MSA) to nearest sink MSA [NZAu developed from manual processes used for NZA,PoPW, REPEAT]
+STAGE 7 - EXPORT SINK LINE GENERATION connecting all export specific CPAs with EXPORT power aggregation nodes [NZAu]
+STAGE 8 - COMBINE INFRASTRUCTURE linked to each projects into a project layer with all relevant OIDs
+MapRE+:Redo base route surface for all TX - NO
+MapRE+:Redo base cost surface for all TX - NO
+MapRE+:Redo existing tx cost surface - NO
+MapRE+:Redo available substation locations - NO
+MapRE+:Redo spur tx cost surface - NO
+MapRE+:Redo bulk tx cost surface - NO
+MapRE+:Redo sink tx cost surface - NO
+MapRE+:Redo export spur tx cost surface - NO
+B1:Starting B1 
+B1:Running wind case 1: process Layers = 1, heatmaps = 1
+B1:Starting raster calculation for mines
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for builtUpAreas
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for defense
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for culture
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for irrigated
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for rainfed
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for transpo
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for shippingLanes
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for slope
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for popDenDom
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for tooFarAll
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for reserves
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for capad
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for capadMarine
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for snes100
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for ecnes100
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for kba
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for intactBio
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for wildFree
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for cfThresh
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Starting raster calculation for waterComb
+B1:DONE-full
+B1:DONE-limited
+B1:DONE-binary
+B1:Finished exclusion raster overlay loop
+B1:Finished raster calculator for exclusion heatmaps
+B1:Finished exclusion raster heatmap
+B1:Finished exclusion raster flatmap
+B1: Finished flattened B1 output
+B1:Memory cache deleted, END mapRE+ B1 taking 60.8 minutes.
+B2:Starting B2 with C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B1_case1
+B2:Copying fishnet to memory :C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0_Base.gdb\fishnet_20km
+B2:Suitable sites in memory :C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B1_case1
+B2:Finished intersecting total site area with fishnet and clipping to country bounds
+B2:Intermediate dump of memory cache
+B2:Sites Multipart to single
+B2:Sites part A: remove all singlepart sites below minimum contiguous field threshold
+B2:B2 Output can be found at:C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B2_case1
+B2:Memory cache deleted, END mapRE+ B2 taking 1.1 minutes.
+B3:Starting B3 with C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B2_case1
+B3:Suitable sites in memory; suitable site raster in memory for analyses with OBJECTID saved as raster value
+B3:Attribute list read from C:\Users\uqapasca\workdeskUQ\NZAu\d0_2code\biodiversity\NZAu_vBD_MAPREplus3_all.csv
+d_sink distance calculation complete
+d_load distance calculation complete
+d_export distance calculation complete
+d_nodeOn distance calculation complete
+d_nodeOff distance calculation complete
+Mean Zonal stats for m_elev is complete
+Mean Zonal stats for m_popden is complete
+Mean Zonal stats for m_PvMult is complete
+Mean Zonal stats for m_WinMult is complete
+Majority Zonal stats for m_landuse_maj is complete
+Majority Zonal stats for m_NZAu_maj is complete
+Majority Zonal stats for m_locMult is complete
+Majority Zonal stats for m_node is complete
+Majority Zonal stats for m_pvOld_maj is complete
+Majority Zonal stats for m_windOld_maj is complete
+Variety Zonal stats for m_pvOld_cov is complete
+Variety Zonal stats for m_windOld_cov is complete
+Zonal stats for lossless Capacity Factor is complete (check if CF is lossless!?)
+Added estimations for nameplate capacity (incap), annual simple project generation (egen)
+The Capacity Factor provided is assumed to be lossless - check the input layer for assumptions underlying, and adjust this code and supply curve code if not lossless, m_cf -> m_cf_lossless
+B3:Initial B3 Site Output can be found at:C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B3_case1
+B3:CSV for initial B3 site Output can be found at:C:\Users\uqapasca\workdeskUQ\NZAu\d0_3results\biodiversity\wind_v6_all_pd2d7_B3_case1_cpa.csv
+B3:Memory cache deleted, END mapRE+ B3 taking 4.3 minutes.
+B4:Starting B4 with C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B3_case1
+B4: Using pre-procesed generalized substations, removed all unneeded columns
+B4: Spur line routes done
+B4: Pairwise Buffer for constrained cost surface done
+B4: Extract by Mask for constrained cost surface done
+B4: Generated constrained cost surface for entire spur
+B4: Spur line paths with costs generated and assigned closest substation
+B4: Exported Subststaions - Only those accessed
+B4: Site CentrePoints can be found at:C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B4_case1_points
+B4: Accessed substations can be found at:C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B4_case1_subs
+B4: Spur lines can be found at:C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B4_case1_spurs
+B4: Saved csvs ( _points , _spurs , _subs )
+B4: Memory cache deleted, END mapRE+ B4 taking 5.0 minutes.
+B5: Starting B5 with C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B4_case1
+B5: Bulk line routes done
+B5: Pairwise Buffer for bulk route constrained cost surface done
+B5: Extract by Mask for bulk route constrained cost surface done
+B5: Generated constrained cost surface for bulk lengths
+B5: Bulk line costs done
+B5: Spatial joins: SA2 to bulk lines
+B5: Bulk transmission lines from substations to nearest load can be found at:C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B5_case1_bulk
+B5: Saved csvs ( _bulk )
+B5: Memory cache deleted, END mapRE+ B5 taking 2.4 minutes.
+B6:Starting B6 with C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B4_case1
+B6: Sink line routes done
+B6: Pairwise Buffer for sink route constrained cost surface done
+B6: Extract by Mask for sink route constrained cost surface done
+B6: Generated constrained cost surface for sink lengths
+B6: Sink lines done
+B6: Spatial joins: SA2 to sink lines
+B6: Sink transmission lines from substations to nearest regional sink load can be found at:C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B6_case1_sink
+B6: Save csvs ( _sink )
+B6: Memory cache deleted, END mapRE+ B6 taking 2.6 minutes.
+B7:Starting B7 with C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B3_case1
+B7: Wind limited to 4322 projects.
+B7: Export line routes done
+B7: Pairwise Buffer for constrained cost surface done
+B7: Extract by Mask for constrained cost surface done
+B7: Generated constrained cost surface for entire export line
+B7: Export line costs done
+B7: Export spur transmission lines from project to nearest hydrogen production load can be found at:C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B7_case1_export
+B7: Export spurs - Spatial joins: Export node info
+B7: Saved csvs ( _export )
+B7: Memory cache deleted, END mapRE+ B7 taking 2.9 minutes.
+B8:Starting B8 with C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B3_case1
+B8: Added C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B4_case1_spurs to projects
+B8: Added C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B5_case1_bulk to projects
+B8: Added C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B6_case1_sinks to projects
+B8: Added C:\Users\uqapasca\workdeskUQ\NZAu\d0_4gis\NZAu0a_Biodiversity_v6.gdb\_wind_v6_all_pd2d7_B7_case1_export to projects
+B8: Memory cache deleted, END mapRE+ B8 taking 0.3 minutes.
+Column Run: Memory cache deleted, END mapRE+ Column Run for column 6 taking 79.4 minutes on tasks for  wind projects.

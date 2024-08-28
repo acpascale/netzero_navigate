@@ -4,11 +4,15 @@ This repository contains data, code and outputs for the manuscript on nativagiti
 
 ## Source files
 
-All (non-GIS) source files needed to reproduce analyses here. Missing GIS files have not been added at this time due to size limitations. They will be made available for download shortly.
+All (non-GIS) source files needed to reproduce analyses here. 
 
 ## Code folder
 
 All scripts to reproduce code-based analyses here. These include scripts developed by the repository owner, scripts provided by Evolved Energy Research (EER), and portions of scripts representing a fork of a MapRE repository. Scripts provided by EER are marked with "_eer" at the end of the file name (*_eer). Code representing the fork of the MapRE repository are marked with comments within files. Credit details and development of code and methods are provided at the bottom of this readme (and in main code file). 
+
+**Note that stages 1-3 cannot be run without downloading files owned by other organizations, and placing them in the appropriate GIS location. See "/d0_2code/parameters/mpv1_[x].csv" , "/d0_2code/parameters/mvp0_paper_setup.csv" , and "mpv3_paper_all.csv" files.  Users should paramterize the "/d0_2code/parameters/mvp0_paper_setup.csv" file to start with stage 4. Stage 3 outputs have been placed in the appropriate GIS folder so that stages four to eight can be run. Stage eight outputs are also in this folder if one wants to skip stages 1-8 all together.
+
+Additionl code (not used in paper, but extended functionality to mapping of selected projects and transmission) will be added over time as a Fork of this directory.
 
 ## Results folder
 
@@ -16,12 +20,19 @@ All (non-GIS) results are saved into this folder.
 
 ## GIS folder
 
-All GIS source and output files are contained in the arcGIS geodatabase's (*.gdb) in this folder
+Paper GIS source and output files are contained in the arcGIS geodatabase's (*.gdb) in this folder
+
+Layers sourced from other organizations have not been provided (see **Note in Code Folder section").  
+
+Pre-seeded results (netNav_results.gdb) and additional GIS database (netNav_baseAdd.gdb) are available for download here: https://drive.google.com/drive/folders/15eRm0PjM5-2UG7W5wiJL8qs9y2ONUB7Q?usp=sharing
+
 
 ## Credits
 Suggested Citation (to be updated): 
 Pascale, A., Watson, J., Davis, D., Smart, S., Braer, M., Jones,R., Greig, C. Negotiating risks to natural capital and stakeholder values in net-zero transitions. In progress. (2024).
 
+
+## Additional credits
 1. The process described in provided code was seeded by the TNC's Power of Place California project (PoPC)
 	1. Wu, Grace C., Emily Leslie, Douglas Allen, Oluwafemi Sawyerr, D. Richard Cameron, Erica Brand, Brian Cohen, Marcela Ochoa, and Arne Olsen. “Power of Place, Land Conservation and Clean Energy Pathways for California,” 2019.
 
@@ -57,7 +68,3 @@ Pascale, A., Watson, J., Davis, D., Smart, S., Braer, M., Jones,R., Greig, C. Ne
 5. Bug discovery and fixes supplied by Yimin Zhang (UoM): fixes in sink transmission costing and in availability of offshore wind projects (these bugs impact prior NZAu results)
 
 6. Added EER (https://www.evolved.energy/) supply curve code to process and modified to recreate lost code and parameters and use for paper.
-
-7. Code and data will be posted as is for use with a manuscript, but will be cleaned and combined into a single programming language, to aid user accessibility
-
-8. User will need to download a zipped ArcGIS gdb to run stages 1-8, will be posted at (TBA)

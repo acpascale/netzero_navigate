@@ -1,0 +1,4 @@
+d_sink,d_load,d_export,d_nodeOn,d_nodeOff,m_elev,m_popden,m_landuse_maj,m_NZAu_maj,m_PvMult,m_WinMult,m_locMult,m_node,m_pvOld_maj,m_windOld_maj,m_pvOld_cov,m_windOld_cov
+yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+distance,distance,distance,distance,distance,mean,mean,majority,majority,mean,mean,majority,majority,majority,majority,coverage,coverage
+netNav_base.gdb\nzau_sinkLoad_points,netNav_base.gdb\nzau_allLoad_points,netNav_base.gdb\nzau_exPorts,netNav_base.gdb\nzau_exNodesOn,netNav_base.gdb\nzau_exNodesOff,not provided,not provided,not provided,netNav_base.gdb\nzau_AUS_nzau15woff_3577_ras,netNav_baseAdd.gdb\nzau_capMult_spv_3577_ras,netNav_baseAdd.gdb\nzau_capMult_wind_3577_ras,netNav_baseAdd.gdb\nzau_locMult_3577_ras,netNav_baseAdd.gdb\nzau_Allnodes_ED,netNav_baseAdd.gdb\nzau_allBuf_pvOpCom_ras,netNav_baseAdd.gdb\nzau_allBuf_windOpCom_ras,netNav_baseAdd.gdb\nzau_allBuf_pvOpCom_ras,netNav_baseAdd.gdb\nzau_allBuf_windOpCom_ras
