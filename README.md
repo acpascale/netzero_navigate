@@ -22,10 +22,13 @@ All (non-GIS) results are saved into this folder.
 
 Paper GIS source and output files are contained in the arcGIS geodatabase's (*.gdb) in this folder
 
-Layers sourced from other organizations have not been provided (see **Note in Code Folder section").  
+Layers sourced from other organizations have not been provided - see **Note in [Code Folder](#Code-folder).  
 
 Pre-seeded results (netNav_results.gdb) and additional GIS database (netNav_baseAdd.gdb) are available for download here: https://drive.google.com/drive/folders/15eRm0PjM5-2UG7W5wiJL8qs9y2ONUB7Q?usp=sharing
 
+## Tables and Figures 
+
+Files for all paper Figures (png, 300dpi). Excel workbook with all paper Tables. 
 
 ## Credits
 Suggested Citation (to be updated): 
