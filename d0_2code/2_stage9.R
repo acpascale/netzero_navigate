@@ -273,15 +273,15 @@ for (v in 1:( length ( inVers ) ) ) {
   CPAg$bulk_aud2021_kw                <- ( CPAg$CAPEX_maud2021 + CPAg$gridConCost_maud2021 + CPAg$adjBulkCost_maud2021 ) * 1e6 / ( CPAg$incap * 1e3 ) 
   CPAg$sink_aud2021_kw                <- ( CPAg$CAPEX_maud2021 + CPAg$gridConCost_maud2021 + CPAg$adjSinkCost_maud2021 ) * 1e6 / ( CPAg$incap * 1e3 )
   ##LCC for plots for write-up (based on a X year project lifespan)
-  fixedOM <- ifelse ( resource == "off" & lcoe.year < 2040 , 92 , ifelse ( resource == "off" & lcoe.year >= 2040 , 80.3 , ifelse ( resource == "pv" , 17.6 , 25.9 ) ) )
+  fixedOM <- ifelse ( resource == "off" , 167720 , ifelse ( resource == "pv" , 18070 , 26590 ) )
   
   if ( resource == "off" ) {
-    CPAg$bulk_aud2021_mwh               <- ( ( CPAg$CAPEX_maud2021 * crfVRE + ( CPAg$gridConCost_maud2021 * vinOffMult ) * crfTX + ( CPAg$adjBulkCost_maud2021 * vinOffMult ) * crfTX ) * 1e6  / ( CPAg$incap ) + fixedOM ) / (  8760 * ( CPAg$m_cf_noloss * ifelse ( CPAg$resource == "pv" , pvGrossUp , 1 ) * ( 1 - ( CPAg$spurLength_km * txloss.dc ) / 100 ) * ( 1 - convLoss.dc ) ) )
-    CPAg$sink_aud2021_mwh               <- ( ( CPAg$CAPEX_maud2021 * crfVRE + ( CPAg$gridConCost_maud2021 * vinOffMult ) * crfTX + ( CPAg$adjSinkCost_maud2021 * vinOffMult ) * crfTX ) * 1e6 / ( CPAg$incap ) + fixedOM ) / (  8760 * ( CPAg$m_cf_noloss * ifelse ( CPAg$resource == "pv" , pvGrossUp , 1 ) * ( 1 - ( CPAg$spurLength_km * txloss.dc ) / 100 ) * ( 1 - convLoss.dc ) ) )
+    CPAg$bulk_aud2021_mwh               <- ( ( ( CPAg$CAPEX_maud2021 * crfVRE + ( CPAg$gridConCost_maud2021 * vinOffMult ) * crfTX + ( CPAg$adjBulkCost_maud2021 * vinOffMult ) * crfTX ) * 1e6 ) / CPAg$incap  + fixedOM ) / (  8760 * ( CPAg$m_cf_noloss * ifelse ( CPAg$resource == "pv" , pvGrossUp , 1 ) * ( 1 - ( CPAg$spurLength_km * txloss.dc ) / 100 ) * ( 1 - convLoss.dc ) ) )
+    CPAg$sink_aud2021_mwh               <- ( ( ( CPAg$CAPEX_maud2021 * crfVRE + ( CPAg$gridConCost_maud2021 * vinOffMult ) * crfTX + ( CPAg$adjSinkCost_maud2021 * vinOffMult ) * crfTX ) * 1e6 ) / CPAg$incap  + fixedOM ) / (  8760 * ( CPAg$m_cf_noloss * ifelse ( CPAg$resource == "pv" , pvGrossUp , 1 ) * ( 1 - ( CPAg$spurLength_km * txloss.dc ) / 100 ) * ( 1 - convLoss.dc ) ) )
   } 
   if ( !( resource == "off" ) ) {
-    CPAg$bulk_aud2021_mwh               <- ( ( CPAg$CAPEX_maud2021 * crfVRE + CPAg$gridConCost_maud2021 * crfTX + CPAg$adjBulkCost_maud2021 * crfTX ) * 1e6  / ( CPAg$incap ) + fixedOM ) / (  8760 * ( CPAg$m_cf_noloss * ifelse ( CPAg$resource == "pv" , pvGrossUp , 1 ) * ( 1 - ( CPAg$spurLength_km * txloss.ac ) / 100 ) ) )
-    CPAg$sink_aud2021_mwh               <- ( ( CPAg$CAPEX_maud2021 * crfVRE + CPAg$gridConCost_maud2021 * crfTX + CPAg$adjSinkCost_maud2021 * crfTX ) * 1e6 / ( CPAg$incap ) + fixedOM ) / (  8760 * ( CPAg$m_cf_noloss * ifelse ( CPAg$resource == "pv" , pvGrossUp , 1 ) * ( 1 - ( CPAg$spurLength_km * txloss.ac ) / 100 ) ) )
+    CPAg$bulk_aud2021_mwh               <- ( ( ( CPAg$CAPEX_maud2021 * crfVRE + CPAg$gridConCost_maud2021 * crfTX + CPAg$adjBulkCost_maud2021 * crfTX ) * 1e6 ) / CPAg$incap  + fixedOM ) / (  8760 * ( CPAg$m_cf_noloss * ifelse ( CPAg$resource == "pv" , pvGrossUp , 1 ) * ( 1 - ( CPAg$spurLength_km * txloss.ac ) / 100 ) ) )
+    CPAg$sink_aud2021_mwh               <- ( ( ( CPAg$CAPEX_maud2021 * crfVRE + CPAg$gridConCost_maud2021 * crfTX + CPAg$adjSinkCost_maud2021 * crfTX ) * 1e6 ) / CPAg$incap  + fixedOM ) / (  8760 * ( CPAg$m_cf_noloss * ifelse ( CPAg$resource == "pv" , pvGrossUp , 1 ) * ( 1 - ( CPAg$spurLength_km * txloss.ac ) / 100 ) ) )
   }
   
   #NZAu names
@@ -576,7 +576,7 @@ for (v in 1:( length ( inVers ) ) ) {
     writeData     ( wb, sheet     = paste ( resource , "_SupplyCutEconProb" , sep = "" ) , rowNames = FALSE , colNames = TRUE , CPAe )
     addWorksheet  ( wb, sheetName = paste ( resource , "_LoadsWB" , sep = "" ) )
     writeData     ( wb, sheet     = paste ( resource , "_LoadsWB" , sep = "" ) , rowNames = FALSE , colNames = TRUE , LOADS )
-    saveWorkbook  ( wb, file      = paste ( "../d0_3results/biodiversity/_" , resource ,  "Supply_" , outVer , "_case" , case , "_" , CapYear , "_forSC_wBugfix.xlsx" , sep = ""  ) , overwrite = TRUE ) 
+    saveWorkbook  ( wb, file      = paste ( "../d0_3results/sc_raw_full/" , resource ,  "Supply_" , outVer , "_case" , case , "_" , CapYear , "_forSC_wBugfix.xlsx" , sep = ""  ) , overwrite = TRUE ) 
     rm ( wb )
   }
   

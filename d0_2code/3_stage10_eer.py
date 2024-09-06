@@ -206,7 +206,7 @@ def add_name(df, name_prefix):
     return df
 
 
-base_dir = os.getcwd()
+#base_dir = os.getcwd()
 input_directory  = base_dir + '\\..\\d0_3results\\sc_formatted'
 output_directory = base_dir + '\\..\\d0_3results\\sc_final'
 

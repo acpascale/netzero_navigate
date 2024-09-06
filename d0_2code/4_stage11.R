@@ -113,14 +113,6 @@ for ( i in 2:length ( aspect ) ) {
 ##--A. Clean
 source("clean.R")
 
-##--B.Load Library for country manipulations
-#suppressMessages ( library ( "openxlsx"     , lib.loc=.libPaths() ) )      # worksheet functions
-#suppressMessages ( library ( "reshape2"     , lib.loc=.libPaths() ) )      # melt, dcast
-
-#image print vars
-wdth          <- 1920
-hgth          <- 1080
-
 #sc data in
 aspect <- c ( "binned_resource_df" , "capacity_constraints" , "capacity_factors" , "tx_cost" , "capex_cost" )
 
@@ -323,10 +315,6 @@ write.csv( FIND , file = paste ( "../d0_3results/paper_codeAnalyses/" , inVer , 
 
 ##--A. Clean
 source("clean.R")
-
-##--B.Load Library for country manipulations
-#suppressMessages ( library ( "openxlsx"     , lib.loc=.libPaths() ) )      # worksheet functions
-#suppressMessages ( library ( "reshape2"     , lib.loc=.libPaths() ) )      # melt, dcast
 
 resource           <- c ( "solar" , "onshore" , "offshore" )
 scenarios           <- c ( "eplus" , "eplus-distributedexport" )

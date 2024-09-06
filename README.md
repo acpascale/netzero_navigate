@@ -32,7 +32,7 @@ Files for all paper Figures (png, 300dpi). Excel workbook with all paper Tables.
 
 ## Credits
 Suggested Citation (to be updated): 
-Pascale, A., Watson, J., Davis, D., Smart, S., Braer, M., Jones,R., Greig, C. Negotiating risks to natural capital and stakeholder values in net-zero transitions. In progress. (2024).
+Andrew Pascale, James Watson, Dominic Davis et al. Negotiating risks to natural capital and stakeholder values in net-zero transitions, 05 September 2024, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-4971429/v1]
 
 
 ## Additional credits
