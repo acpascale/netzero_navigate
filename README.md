@@ -90,10 +90,10 @@ see https://www.nature.com/documents/nr-software-policy.pdf
 1. Stages 1-3 and some optional stages (in 1_stage1to8.py file) cannot be run without downloading files owned by other organizations, and placing them in the appropriate GIS location. 
 	1. See "/d0_2code/parameters/mpv1_[x].csv", "/d0_2code/parameters/mvp0_paper_setup.csv" , and "mpv3_paper_all.csv" files. 
 	2. If not downloading external files, users should paramterize the 'Start Stage row" in the "/d0_2code/parameters/mvp0_paper_setup.csv" file to start with stage 4. 
-	3. Expected outputs of all stages (including 1 and 2) have been placed in the appropriate GIS and data folders so that stages four to eight can be run, along with later code files ("2_stage9.r" , "3_stage10_eer.py", "4_stage11.r").
-       1. Pre-seeded results (netNav_results.gdb) and additional GIS database (netNav_baseAdd.gdb) are available for download here: https://drive.google.com/drive/folders/15eRm0PjM5-2UG7W5wiJL8qs9y2ONUB7Q?usp=sharing
-	4. For R files, it is suggested that a base directory [base path here] is set in the appropriate line of code in each file to ease use: setwd("[base path here]/netzero_navigate/d0_2code")
-	5. Expected run time to complete all stages for all resources and cases may span 6-48 hours depending on computer specifications. Expected run times decrease to minutes (<1 hour) when starting with stage 8 or beyond. 
+2. Expected outputs of all stages (including 1 and 2) have been placed in the appropriate GIS and data folders so that stages four to eight can be run, along with later code files ("2_stage9.r" , "3_stage10_eer.py", "4_stage11.r").
+   1. Pre-seeded results (netNav_results.gdb) and additional GIS database (netNav_baseAdd.gdb) are available for download here: https://drive.google.com/drive/folders/15eRm0PjM5-2UG7W5wiJL8qs9y2ONUB7Q?usp=sharing
+3. For R files, it is suggested that a base directory [base path here] is set in the appropriate line of code in each file to ease use: setwd("[base path here]/netzero_navigate/d0_2code")
+4. Expected run time to complete all stages for all resources and cases may span 6-48 hours depending on computer specifications. Expected run times decrease to minutes (<1 hour) when starting with stage 8 or beyond. 
 
 ### Instructions for use
 1. Install code interpreters and set up R and python code environments to access interpreters. Install additional packages.
