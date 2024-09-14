@@ -12,7 +12,7 @@ All scripts to reproduce code-based analyses here. These include scripts develop
 
 **Note that stages 1-3 cannot be run without downloading files owned by other organizations, and placing them in the appropriate GIS location. See "/d0_2code/parameters/mpv1_[x].csv" , "/d0_2code/parameters/mvp0_paper_setup.csv" , and "mpv3_paper_all.csv" files.  Users should paramterize the "/d0_2code/parameters/mvp0_paper_setup.csv" file to start with stage 4. Stage 3 outputs have been placed in the appropriate GIS folder so that stages four to eight can be run. Stage eight outputs are also in this folder if one wants to skip stages 1-8 all together.
 
-Additionl code (not used in paper, but extended functionality to mapping of selected projects and transmission) will be added over time as a Fork of this directory.
+Additional code (not used in paper, but extended functionality to mapping of selected projects and transmission) will be added over time as a Fork of this directory.
 
 ## Results folder
 
@@ -71,3 +71,32 @@ Andrew Pascale, James Watson, Dominic Davis et al. Negotiating risks to natural 
 5. Bug discovery and fixes supplied by Yimin Zhang (UoM): fixes in sink transmission costing and in availability of offshore wind projects (these bugs impact prior NZAu results)
 
 6. Added EER (https://www.evolved.energy/) supply curve code to process and modified to recreate lost code and parameters and use for paper.
+
+## Code and Software Submission Requirements
+see https://www.nature.com/documents/nr-software-policy.pdf
+
+### System Requirements
+1. Users will need environments in which R, python, and arcPy code can be run.
+	1. The last base R release the code was tested on is version 4.4.0, which was run via RStudio 2024.04.2 Build 764.
+	2. A python 3.11 interpreter based on an acrgispro-py3 clone was run in PyCharm 2024.1.2 (Community Edition) Build #PC-241.17011.127, built on May 28, 2024.
+2. R code requires the following packages, and the last version the code was tested on: openxlsx (4.2.5.2), reshape2 (1.4.4).
+3. Ordinary python imports (e.g. os, numpy, pandas, etc) are listed in each relevant file. Python code additionaly requires the installation of the scikit-learn package, with the last version the code was tested on being 1.4.2 .
+4. No non-standard hardware is required.
+
+### Installation guide
+1. As long as directory structure is maintained and parameter files are altered for each specific run environemnt, there are no custom installation instructions.
+
+### Demo
+1. Stages 1-3 and some optional stages (in 1_stage1to8.py file) cannot be run without downloading files owned by other organizations, and placing them in the appropriate GIS location. 
+	1. See "/d0_2code/parameters/mpv1_[x].csv", "/d0_2code/parameters/mvp0_paper_setup.csv" , and "mpv3_paper_all.csv" files. 
+	2. If not downloading external files, users should paramterize the 'Start Stage row" in the "/d0_2code/parameters/mvp0_paper_setup.csv" file to start with stage 4. 
+	3. Expected outputs of all stages (including 1 and 2) have been placed in the appropriate GIS and data folders so that stages four to eight can be run, along with later code files ("2_stage9.r" , "3_stage10_eer.py", "4_stage11.r").
+       1. Pre-seeded results (netNav_results.gdb) and additional GIS database (netNav_baseAdd.gdb) are available for download here: https://drive.google.com/drive/folders/15eRm0PjM5-2UG7W5wiJL8qs9y2ONUB7Q?usp=sharing
+	4. For R files, it is suggested that a base directory [base path here] is set in the appropriate line of code in each file to ease use: setwd("[base path here]/netzero_navigate/d0_2code")
+	5. Expected run time to complete all stages for all resources and cases may span 6-48 hours depending on computer specifications. Expected run times decrease to minutes (<1 hour) when starting with stage 8 or beyond. 
+
+### Instructions for use
+1. Install code interpreters and set up R and python code environments to access interpreters. Install additional packages.
+2. Parameterize "/d0_2code/parameters/mpv1_[x].csv", "/d0_2code/parameters/mvp0_paper_setup.csv" , and "mpv3_paper_all.csv" files for directory structure of users system, along with base paths for each code chunk (see item 4 in last section).
+3. Run code in sequential order, "1_[x].py" , "2_[x].r" , "3_[x].py", "4_[x].r". Warnings will occur in "3_[x].py" but will not impact duplication of results.
+4. We have not provided detailed instructions for reproducing the manual analyses run using generic ArcGIS pro packages (e.g. ZonalStatisticsAsTable - https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/zonal-statistics-as-table.htm).
