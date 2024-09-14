@@ -79,7 +79,7 @@ see https://www.nature.com/documents/nr-software-policy.pdf
 1. Users will need environments in which R, python, and arcPy code can be run.
 	1. The last base R release the code was tested on is version 4.4.0, which was run via RStudio 2024.04.2 Build 764.
 	2. A python 3.11 interpreter based on an acrgispro-py3 clone was run in PyCharm 2024.1.2 (Community Edition) Build #PC-241.17011.127, built on May 28, 2024.
-2. R code requires the following packages, and the last version the code was tested on: openxlsx (4.2.5.2), reshape2 (1.4.4).
+2. R code requires the following packages (last version the code was tested on): openxlsx (4.2.5.2), reshape2 (1.4.4).
 3. Ordinary python imports (e.g. os, numpy, pandas, etc) are listed in each relevant file. Python code additionaly requires the installation of the scikit-learn package, with the last version the code was tested on being 1.4.2 .
 4. No non-standard hardware is required.
 
@@ -97,6 +97,6 @@ see https://www.nature.com/documents/nr-software-policy.pdf
 
 ### Instructions for use
 1. Install code interpreters and set up R and python code environments to access interpreters. Install additional packages.
-2. Parameterize "/d0_2code/parameters/mpv1_[x].csv", "/d0_2code/parameters/mvp0_paper_setup.csv" , and "mpv3_paper_all.csv" files for directory structure of users system, along with base paths for each code chunk (see item 4 in last section).
+2. Parameterize "/d0_2code/parameters/mpv1_[x].csv", "/d0_2code/parameters/mvp0_paper_setup.csv" , and "mpv3_paper_all.csv" files for directory structure of each user's system, along with base paths for each code chunk (see item 4 in last section).
 3. Run code in sequential order, "1_[x].py" , "2_[x].r" , "3_[x].py", "4_[x].r". Warnings will occur in "3_[x].py" but will not impact duplication of results.
 4. We have not provided detailed instructions for reproducing the manual analyses run using generic ArcGIS pro packages (e.g. ZonalStatisticsAsTable - https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/zonal-statistics-as-table.htm).
