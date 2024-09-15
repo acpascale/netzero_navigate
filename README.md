@@ -66,8 +66,9 @@ Andrew Pascale, James Watson, Dominic Davis et al. Negotiating risks to natural 
 4. CODE CLEANED, REWRITTEN, AND PLACED IN SINGLE FILE FOR USE ON Natural Capital paper and training for UoM
 	1. Deep clean on MapRE code (Stages 1 to 3), fixing bugs, updating functions, simplifying code, and rewriting to implement new functionality (e.g. heat maps and individual layer exports from stage 1)
 		1. Notes: Improve memory handling; deleted (most) unused code; no longer supports CSP; rewrote to make exclusion layer overlay maps and simplify code; remove shapefile support for projects; added median and variety calculations.
-	2. Add optional functions found in code stages A1 to A6, which demonstrate functions for preparing inputs to transmission routing process (e.g. cost surfaces, generic substations, etc) 
-	3. Provided 'as is' to UoM Boundless project in April 2024 (it is hoped that at some time in the future, their fork of this code - which is fully in python, and aligns with best practice python code practices, will become publically available).
+	2. Add optional functions found in code stages A1 to A6, which demonstrate functions for preparing inputs to transmission routing process (e.g. cost surfaces, generic substations, etc)
+	2. Modify structure and imrpove documentation for planned training at UoM in April 2024 
+	3. Provided, with training, to UoM Boundless project in April 2024 (it is hoped that at some time in the future, their fork of this code - which is fully in python, and aligns with best practice python inplementation, will become publically available).
 	 
 5. Implement code to fix bugs identified by Yimin Zhang (UoM): fixes in sink transmission costing and in availability of offshore wind projects (these bugs impact prior NZAu results).
 
