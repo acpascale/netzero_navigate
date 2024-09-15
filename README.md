@@ -45,32 +45,34 @@ Andrew Pascale, James Watson, Dominic Davis et al. Negotiating risks to natural 
 
 3. The process was developed by the author, with collaborators listed as co-authors, on these projects
 	1. Larson, Eric, Chris Greig, Jesse Jenkins, Erin Mayfield, Andrew Pascale, Chuan Zhang, Joshua Drossman, et al. “Net-Zero America: Potential Pathways, Infrastructure, and Impacts.” Final Report. Princeton, NJ: Princeton University, October 29, 2021. https://netzeroamerica.princeton.edu/.
-		1. realizes working version of least-cost transmission routing and costing process discussed as an area for further work by PoPC.
-		2. for process details see Pascale, A, Jesse Jenkins. "Annex F: Integrated Transmission Line Mapping and Costing" (https://netzeroamerica.princeton.edu/img/NZA%20Annex%20F%20-%20HV%20Transmission.pdf)
+		1. Realizes working version of least-cost transmission routing and costing process - discussed as an area for further work by PoPC.
+		2. For process details see Pascale, A, Jesse Jenkins. "Annex F: Integrated Transmission Line Mapping and Costing" (https://netzeroamerica.princeton.edu/img/NZA%20Annex%20F%20-%20HV%20Transmission.pdf)
 	2. Wu, Grace C., Ryan A. Jones, Emily Leslie, James H. Williams, Andrew Pascale, Erica Brand, Sophie S. Parker, et al. “Minimizing Habitat Conflicts in Meeting Net-Zero Energy Targets in the Western United States.” Proceedings of the National Academy of Sciences 120, no. 4 (January 24, 2023): e2204098120. https://doi.org/10.1073/pnas.2204098120.
-		1. extends methods developed for (a) to introduce more complex transmission routing surfaces, linking of mapped transmission costs to CPAs, and seperation of transmission siting process into two steps: a) routing step, b) costing step
+		1. Introduces more complex transmission routing surfaces, linking of mapped transmission costs to CPAs, and seperation of transmission siting process into two steps: a) routing step, b) costing step
 	3. Patankar, Neha, Xiili Sarkela-Basset, Greg Schivley, Emily Leslie, and Jesse Jenkins. “Land Use Trade-Offs in Decarbonization of Electricity Generation in the American West.” Energy and Climate Change 4 (December 1, 2023): 100107. https://doi.org/10.1016/j.egycc.2023.100107.
 	4. Patankar, Neha, Xiili Sarkela-Basset, Greg Schivley, Emily Leslie, and Jesse Jenkins. “Corrigendum to ‘Land Use Trade-Offs in Decarbonization of Electricity Generation in the American West’ [Energy and Climate Change 4 (2023) 100107].” Energy and Climate Change, March 21, 2024, 100130. https://doi.org/10.1016/j.egycc.2024.100130.
-		1. extends methods developed for (b) by allowing use of only a single 'costing' surface for all transmission line types (designed and manually implemented by A Pascale) 
-		2. prior methods and extension is coded into python/QGIS for use in REPEAT by REPEAT code team
-		3. REPEAT also developed new ways of combining CPAs and transmission and grouping them for use in capacity extension models (see journal paper).
-	5. Davis, Dominic, Andrew C. Pascale, Bishal Bharadaj, Richard Bolt, Michael Brear, Brendan Cullen, Robin Batterham, et al. “Methods, Assumptions, Scenarios & Sensitivities,” April 19, 2023. https://www.netzeroaustralia.net.au/wp-content/uploads/2023/04/Net-Zero-Australia-Methods-Assumptions-Scenarios-Sensitivities.pdf.
-		1. full process from one to seven is developed in python and arcPy and successfully implemented for use on Net Zero Australia project
-			1. MapRE code used in stages 1-3 was cloned from MapRE repo (see item 2)
-			2. Transmission steps previously run manually were coded into steps 4-7 and into the optional functions found in code for A1 to A6
-		2. full functionality of REPEAT project grouping was not possible to do on NZAu due to limits on time and computing infrastructure.
+		1. Allows the use of only a single 'costing' surface for all transmission line types (designed and manually implemented by A Pascale) 
+		2. Methods developed and implemented manually on prior projects are coded into python/QGIS for use in REPEAT by REPEAT code team
+		3. REPEAT also develops new ways of bundling CPAs, allowing multiple transmission options, each with a different load destination
+	5. Davis, Dominic, Andrew C. Pascale, Bishal Bharadaj, et al. “Methods, Assumptions, Scenarios & Sensitivities,” April 19, 2023. https://www.netzeroaustralia.net.au/wp-content/uploads/2023/04/Net-Zero-Australia-Methods-Assumptions-Scenarios-Sensitivities.pdf.
+		1. Full process (stages 1 to 7 in supplied code) is developed in python + arcPy and successfully implemented for use on Net Zero Australia project
+			1. Stages 1 to 3 use MapRE code that is cloned from public repository (see item 2)
+			2. Stages 4 to 7 comprise transmission focused steps that were previously run manually
+		2. Full functionality of REPEAT project grouping was not possible to do on NZAu due to limits on time and computing infrastructure, but two transmission options are routed for each CPA, a) nearest load (bulk) and b) nearest regional sink (sink)
 		3. Code for stage 4 was provided to TNC Power of Place National project (8 Sept 2022), and was used - with modification - to run spur TX routing for that project
 		4. For demonstrations of use of provided code for mapping and additional analyses during downscaling see
 			1. Pascale, Andrew, Utkarsh Kiri, Dominic Davis, and Simon Smart. “Downscaling – Solar, Wind and Electricity Transmission Siting.” In Net Zero Australia, 2023. https://www.netzeroaustralia.net.au/wp-content/uploads/2023/04/Downscaling-Solar-wind-electricity-transmission-siting.pdf.
 			2. Pascale, Andrew, Dominic Davis, James EM Watson, Simon Smart, Michael Brear, Julian McCoy, Maria Lopez Peralta, et al. “Downscaling – Net-Zero Transitions, Australian Communities, the Land and Sea.” In Net Zero Australia, 2023. https://www.netzeroaustralia.net.au/wp-content/uploads/2023/04/Downscaling-Land-use-impacts-on-Australian-communities-the-land-sea.pdf.
 4. CODE CLEANED, REWRITTEN, AND PLACED IN SINGLE FILE FOR USE ON Natural Capital paper and training for UoM
-	1. deep clean on MapRE code, fixing bugs, updating functions, simplifying code, and rewriting to implement new functionality (e.g. heat maps and individual layer exports from stage 1)
-		1. improve memory handling; deleted (most) unused code; no longer supports CSP; rewrote to make exclusion layer overlay maps and simplify code; remove shapefile support for projects; added median and variety calculations;
-	2. provided as is to UoM Boundless project in April 2024
+	1. Deep clean on MapRE code (Stages 1 to 3), fixing bugs, updating functions, simplifying code, and rewriting to implement new functionality (e.g. heat maps and individual layer exports from stage 1)
+		1. Notes: Improve memory handling; deleted (most) unused code; no longer supports CSP; rewrote to make exclusion layer overlay maps and simplify code; remove shapefile support for projects; added median and variety calculations.
+	2. Add optional functions found in code stages A1 to A6, which demonstrate functions for preparing inputs to transmission routing process (e.g. cost surfaces, generic substations, etc) 
+	3. Provided 'as is' to UoM Boundless project in April 2024 (it is hoped that at some time in the future, their fork of this code - which is fully in python, and aligns with best practice python code practices, will become publically available).
 	 
-5. Bug discovery and fixes supplied by Yimin Zhang (UoM): fixes in sink transmission costing and in availability of offshore wind projects (these bugs impact prior NZAu results)
+5. Implement code to fix bugs identified by Yimin Zhang (UoM): fixes in sink transmission costing and in availability of offshore wind projects (these bugs impact prior NZAu results).
 
-6. Added EER (https://www.evolved.energy/) supply curve code to process and modified to recreate lost code and parameters and use for paper.
+6. Added EER (https://www.evolved.energy/) supply curve binning code to repository. Repository version represents code that has modified (by first author) to recreate code and parameters lost by EER following NZAu project and has been extended to reflect adjusted focus of journal paper.
+
 
 ## Code and Software Submission Requirements
 see https://www.nature.com/documents/nr-software-policy.pdf
