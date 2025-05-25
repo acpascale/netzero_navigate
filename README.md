@@ -1,6 +1,18 @@
 # netzero_navigate
 
-This repository contains data, code and outputs for the manuscript on nativagiting conflicts with natural capital in net-zeo emissions transitions.  
+This repository contains data, code and outputs for the article entitled, "Negotiating risks to natural capital in net-zero transitions" that will be/was published in Nature Sustainability on 29 May 2025 at https://www.nature.com/articles/s41893-025-01576-y.
+
+After a six-month embargo period, the Authors Accepted Manuscript will be made available ~ 29 November 2025 via the Princeton University Library.  
+
+The initially submitted preprint of eventually published article can be found at: https://doi.org/10.21203/rs.3.rs-4971429/v1
+
+## Suggested Citation(s):
+
+Published article:
+To be added on 20 May
+
+Preprint:
+Andrew Pascale, James Watson, Dominic Davis et al. Negotiating risks to natural capital and stakeholder values in net-zero transitions, 05 September 2024, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-4971429/v1]
 
 ## Source files
 
@@ -10,7 +22,7 @@ All (non-GIS) source files needed to reproduce analyses here.
 
 All scripts to reproduce code-based analyses here. These include scripts developed by the repository owner, scripts provided by Evolved Energy Research (EER), and portions of scripts representing a fork of a MapRE repository. Scripts provided by EER are marked with "_eer" at the end of the file name (*_eer). Code representing the fork of the MapRE repository are marked with comments within files. Credit details and development of code and methods are provided at the bottom of this readme (and in main code file). 
 
-**Note that stages 1-3 cannot be run without downloading files owned by other organizations, and placing them in the appropriate GIS location. See "/d0_2code/parameters/mpv1_[x].csv" , "/d0_2code/parameters/mvp0_paper_setup.csv" , and "mpv3_paper_all.csv" files.  Users should paramterize the "/d0_2code/parameters/mvp0_paper_setup.csv" file to start with stage 4. Stage 3 outputs have been placed in the appropriate GIS folder so that stages four to eight can be run. Stage eight outputs are also in this folder if one wants to skip stages 1-8 all together.
+**Note that stages 1-3 cannot be run without downloading files owned by other organizations and placing them in the appropriate GIS location. See "/d0_2code/parameters/mpv1_[x].csv" , "/d0_2code/parameters/mvp0_paper_setup.csv" , and "mpv3_paper_all.csv" files.  Users should parameterize the "/d0_2code/parameters/mvp0_paper_setup.csv" file to start with stage 4. Stage 3 outputs have been placed in the appropriate GIS folder so that stages four to eight can be run. Stage eight outputs are also in this folder if one wants to skip stages 1-8 altogether.
 
 Additional code (not used in paper, but extended functionality to mapping of selected projects and transmission) will be added over time as a Fork of this directory.
 
@@ -28,12 +40,10 @@ Pre-seeded results (netNav_results.gdb) and additional GIS database (netNav_base
 
 ## Tables and Figures 
 
-Files for all paper Figures (png, 300dpi). Excel workbook with all paper Tables. 
+1. Revised Tables and Figures accompanying the accepted and published article are not provided in this repository. 
 
-## Credits
-Suggested Citation (to be updated): 
-Andrew Pascale, James Watson, Dominic Davis et al. Negotiating risks to natural capital and stakeholder values in net-zero transitions, 05 September 2024, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-4971429/v1]
-
+2. Files for all preprint Figures (png, 300dpi). Excel workbook with all preprint Tables. 
+-- Note that legend in Figure 2 in the preprint contains an uncorrected error, reversing the colors of the Biodiversity exclusion cases. The 'best-current' case is show in the darker gray and the additional areas covered by the 'uncollaborative' case are shown in the lighter gray. 
 
 ## Additional credits
 1. The process described in provided code was seeded by the TNC's Power of Place California project (PoPC)
@@ -48,7 +58,7 @@ Andrew Pascale, James Watson, Dominic Davis et al. Negotiating risks to natural 
 		1. Realizes working version of least-cost transmission routing and costing process - discussed as an area for further work by PoPC.
 		2. For process details see Pascale, A, Jesse Jenkins. "Annex F: Integrated Transmission Line Mapping and Costing" (https://netzeroamerica.princeton.edu/img/NZA%20Annex%20F%20-%20HV%20Transmission.pdf)
 	2. Wu, Grace C., Ryan A. Jones, Emily Leslie, James H. Williams, Andrew Pascale, Erica Brand, Sophie S. Parker, et al. “Minimizing Habitat Conflicts in Meeting Net-Zero Energy Targets in the Western United States.” Proceedings of the National Academy of Sciences 120, no. 4 (January 24, 2023): e2204098120. https://doi.org/10.1073/pnas.2204098120.
-		1. Introduces more complex transmission routing surfaces, linking of mapped transmission costs to CPAs, and seperation of transmission siting process into two steps: a) routing step, b) costing step
+		1. Introduces more complex transmission routing surfaces, linking of mapped transmission costs to CPAs, and separation of transmission siting process into two steps: a) routing step, b) costing step
 	3. Patankar, Neha, Xiili Sarkela-Basset, Greg Schivley, Emily Leslie, and Jesse Jenkins. “Land Use Trade-Offs in Decarbonization of Electricity Generation in the American West.” Energy and Climate Change 4 (December 1, 2023): 100107. https://doi.org/10.1016/j.egycc.2023.100107.
 	4. Patankar, Neha, Xiili Sarkela-Basset, Greg Schivley, Emily Leslie, and Jesse Jenkins. “Corrigendum to ‘Land Use Trade-Offs in Decarbonization of Electricity Generation in the American West’ [Energy and Climate Change 4 (2023) 100107].” Energy and Climate Change, March 21, 2024, 100130. https://doi.org/10.1016/j.egycc.2024.100130.
 		1. Allows the use of only a single 'costing' surface for all transmission line types (designed and manually implemented by A Pascale) 
@@ -66,13 +76,13 @@ Andrew Pascale, James Watson, Dominic Davis et al. Negotiating risks to natural 
 4. CODE CLEANED, REWRITTEN, AND PLACED IN SINGLE FILE FOR USE ON Natural Capital paper and training for UoM
 	1. Deep clean on MapRE code (Stages 1 to 3), fixing bugs, updating functions, simplifying code, and rewriting to implement new functionality (e.g. heat maps and individual layer exports from stage 1)
 		1. Notes: Improve memory handling; deleted (most) unused code; no longer supports CSP; rewrote to make exclusion layer overlay maps and simplify code; remove shapefile support for projects; added median and variety calculations.
-	2. Add optional functions found in code stages A1 to A6, which demonstrate functions for preparing inputs to transmission routing process (e.g. cost surfaces, generic substations, etc)
-	2. Modify structure and imrpove documentation for planned training at UoM in April 2024 
-	3. Provided, with training, to UoM Boundless project in April 2024 (it is hoped that at some time in the future, their fork of this code - which is fully in python, and aligns with best practice python inplementation, will become publically available).
+	2. Add optional functions found in code stages A1 to A6, which demonstrate functions for preparing inputs to transmission routing process (e.g. cost surfaces, generic substations, etc.)
+	2. Modify structure and improve documentation for planned training at UoM in April 2024 
+	3. Provided, with training, to UoM Boundless project in April 2024 (it is hoped that at some time in the future, their fork of this code - which is fully in python, and aligns with best practice python implementation, will become publicly available).
 	 
-5. Implement code to fix bugs identified by Yimin Zhang (UoM): fixes in sink transmission costing and in availability of offshore wind projects (these bugs impact prior NZAu results).
+5. Implement code to fix bugs identified by Yimin Zhang (UoM): fixes in sink transmission costing and availability of offshore wind projects (these bugs impact prior NZAu results).
 
-6. Added EER (https://www.evolved.energy/) supply curve binning code to repository. Repository version represents code that has modified (by first author) to recreate code and parameters lost by EER following NZAu project and has been extended to reflect adjusted focus of journal paper.
+6. Added EER (https://www.evolved.energy/) supply curve binning code to repository. Repository version represents code that has been modified (by the first author) to recreate code and parameters lost by EER following NZAu project and has been extended to reflect adjusted focus of journal paper.
 
 
 ## Code and Software Submission Requirements
@@ -83,16 +93,16 @@ see https://www.nature.com/documents/nr-software-policy.pdf
 	1. The last base R release the code was tested on is version 4.4.0, which was run via RStudio 2024.04.2 Build 764.
 	2. A python 3.11 interpreter based on an acrgispro-py3 clone was run in PyCharm 2024.1.2 (Community Edition) Build #PC-241.17011.127, built on May 28, 2024.
 2. R code requires the following packages (last version the code was tested on): openxlsx (4.2.5.2), reshape2 (1.4.4).
-3. Ordinary python imports (e.g. os, numpy, pandas, etc) are listed in each relevant file. Python code additionaly requires the installation of the scikit-learn package, with the last version the code was tested on being 1.4.2 .
+3. Ordinary python imports (e.g. os, numpy, pandas, etc) are listed in each relevant file. Python code additionally requires the installation of the scikit-learn package, with the last version the code was tested on being 1.4.2 .
 4. No non-standard hardware is required.
 
 ### Installation guide
-1. As long as directory structure is maintained and parameter files are altered for each specific run environemnt, there are no custom installation instructions.
+1. If directory structure is maintained and parameter files are altered for each specific run environment, there are no custom installation instructions.
 
 ### Demo
-1. Stages 1-3 and some optional stages (in 1_stage1to8.py file) cannot be run without downloading files owned by other organizations, and placing them in the appropriate GIS location. 
-	1. See "/d0_2code/parameters/mpv1_[x].csv", "/d0_2code/parameters/mvp0_paper_setup.csv" , and "mpv3_paper_all.csv" files. 
-	2. If not downloading external files, users should paramterize the 'Start Stage row" in the "/d0_2code/parameters/mvp0_paper_setup.csv" file to start with stage 4. 
+1. Stages 1-3 and some optional stages (in 1_stage1to8.py file) cannot be run without downloading files owned by other organizations and placing them in the appropriate GIS location. 
+	1. See "/d0_2code/parameters/mpv1_[x].csv", "/d0_2code/parameters/mvp0_paper_setup.csv", and "mpv3_paper_all.csv" files. 
+	2. If not downloading external files, users should parameterize the 'Start Stage row" in the "/d0_2code/parameters/mvp0_paper_setup.csv" file to start with stage 4. 
 2. Expected outputs of all stages (including 1 and 2) have been placed in the appropriate GIS and data folders so that stages four to eight can be run, along with later code files ("2_stage9.r" , "3_stage10_eer.py", "4_stage11.r").
    1. Pre-seeded results (netNav_results.gdb) and additional GIS database (netNav_baseAdd.gdb) are available for download here: https://drive.google.com/drive/folders/15eRm0PjM5-2UG7W5wiJL8qs9y2ONUB7Q?usp=sharing
 3. For R files, it is suggested that a base directory [base path here] is set in the appropriate line of code in each file to ease use: setwd("[base path here]/netzero_navigate/d0_2code")
