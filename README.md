@@ -9,7 +9,8 @@ The initially submitted preprint of eventually published article can be found at
 ## Suggested Citation(s):
 
 Published article:
-To be added on 20 May
+Pascale, Andrew C, James E M Watson, Dominic Davis, Simon Smart, Michael Brear, Ryan Jones, and Chris Greig. “Negotiating Risks to Natural Capital in Net-Zero Transitions.” Nature Sustainability, 2025, 1–10. https://doi.org/10.1038/s41893-025-01576-y.
+
 
 Preprint:
 Andrew Pascale, James Watson, Dominic Davis et al. Negotiating risks to natural capital and stakeholder values in net-zero transitions, 05 September 2024, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-4971429/v1]
