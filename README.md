@@ -2,7 +2,7 @@
 
 This repository contains data, code and outputs for the article entitled, "Negotiating risks to natural capital in net-zero transitions" that will be/was published in Nature Sustainability on 29 May 2025 at https://www.nature.com/articles/s41893-025-01576-y.
 
-After a six-month embargo period, the Authors Accepted Manuscript will be made available ~ 29 November 2025 via the Princeton University Library.  
+After a six-month embargo period, the Authors Accepted Manuscript was made available on 12 December 2025 via the Princeton University Library: http://arks.princeton.edu/ark:/88435/pr1rx93d8j  
 
 The initially submitted preprint of eventually published article can be found at: https://doi.org/10.21203/rs.3.rs-4971429/v1
 
